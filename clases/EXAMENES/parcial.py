@@ -69,7 +69,7 @@ altura = float (input ("ingrese el valor de la altura : "))
 areas = area (base,altura)
 print ("el resultado del area es :", areas)
 
-#......................punto 4........................#
+#......................PUNTO 4........................#
 
 listanumeros = [1,10,100,1000,10000,100000,1000000,10000000]
 
@@ -80,5 +80,18 @@ def lista():
 
 lista()
 
+#.......................PUNTO 5......................#
 
+listaFibonacci = [0,1,1,2,3,5,8,13,21,34,55,89,144]
 
+def mostrarListaFibonacci (valor):
+    valor1 = 0
+    valor2 = 1
+    for elemento in range (valor-1):
+        secuencia = valor1+valor2
+        valor1 = valor2 
+        valor2 = secuencia
+    return (valor1)
+posicion = mostrarListaFibonacci(5)
+
+print (posicion)
