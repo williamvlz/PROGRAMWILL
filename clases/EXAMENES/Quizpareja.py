@@ -11,3 +11,6 @@ class ElementosDigitales():
         self.FechaPublicacion = FechaPublicacion
     def MostrarAtributos (self):
         print(f"HOLA MI NOMBRE ES {self.Nombre}, soy el creador de {self.creador} Y FUE PUBLICADO EN {self.FechaPublicacion")
+
+Elementos = ElementosDigitales ("SERGIO", "GITHUB", 2019)
+Elementos = MostrarAtributos ()
