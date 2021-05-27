@@ -9,3 +9,4 @@ plt.xlabel ("mes")
 plt.ylabel("ingresos")
 plt.savefig("GraficoBarra.png")
 plt.show()
+
